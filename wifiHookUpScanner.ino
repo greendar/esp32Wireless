@@ -1,8 +1,5 @@
 #include "WiFi.h"
 
-const char* ssid = "************"; // change these
-const char* password = "***********";
-
 void setup() {
   Serial.begin(9600);
   WiFi.mode(WIFI_STA);
